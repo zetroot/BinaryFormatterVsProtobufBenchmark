@@ -1,0 +1,9 @@
+﻿syntax = "proto3";
+
+option csharp_namespace = "BinaryFormatterVsProtobufBenchmark.Protobuf";
+
+message ProtoClass {
+	int32 IntegerData = 1;
+	string StringData = 2;
+	repeated double DoubleArr = 3;
+}
